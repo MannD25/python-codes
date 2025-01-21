@@ -47,6 +47,33 @@ print("celc",celc)
 celc=int(input("enter celc")
     F = (9 / 5 * C) + 32
     print("fahr is ",F)
+#16.
+b=float(input("enter principal "))
+c=float(input("enter rate "))
+d=float(input("enter time "))
+print("interest is ",(b*c*d)/100)
+#18.
+b=float(input("enter side"))
+print("area is",b**2)
+#19.
+a=float(input("enter length "))
+b=float(input("enter width "))
+print("area is",a*b,"perimeter is",2(a+b))
+#20.
+a=float(input("enter length "))
+b=float(input("enter height "))
+print("area is",(a*b)/2)
+#21.
+b=float(input("enter gross salary"))
+print("net salary is",1.13*b)
+#22.
+b=float(input("enter gross sales"))
+print("net sales is",0.9*b)
+#23.
+a=float(input("enter a"))
+b=float(input("enter b"))
+c=float(input("enter c"))
+print("sum is",a+b+c,"average is",(a+b+c)/3)
 
 
 #24
