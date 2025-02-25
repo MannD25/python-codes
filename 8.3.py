@@ -1,0 +1,10 @@
+s=set()
+s1={"adf","sdf","aedf","gdgd","hdghd"}
+s.update(s1)
+l1=list(s)
+l1[2]="sqww"
+l1[3]="dfsbd"
+l1.pop(1)
+l1.pop(0)
+s=set(l1)
+print(s)
